@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #272932;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.fondo {
+  background-image: url("../images/fondomov.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.portada {
+  padding-top: 15%;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 10%;
+  text-align: left;
+  margin: 0;
+}
+
+.name {
+  font-family: "Lora", serif;
+  font-size: 400%;
+  color: #6279b8;
+  margin: 0;
+}
+
+.titlePortada {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 125%;
+}
+
+.divNavbar {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 20%;
+}
+
+nav {
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+}
+
+.navItems {
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  color: #6279b8;
+  text-decoration: none;
+}
+a:hover {
+  color: #f5008f;
+}
+
+@media only screen and (max-width: 636px) {
+  .divNavbar {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .navItems {
+    flex-direction: column;
+    align-items: left;
+  }
+}

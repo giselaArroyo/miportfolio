@@ -1,0 +1,37 @@
+.about {
+  background-color: #6279b8;
+  margin-left: 16%;
+  margin-right: 16%;
+  /* margin-top: 4%; */
+  margin-bottom: 10%;
+  border-radius: 20px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 4%;
+  padding-right: 4%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+img {
+  height: 300px;
+  width: auto;
+}
+
+.textAboutMe {
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 636px) {
+  .about {
+    margin: 10px;
+    flex-direction: column;
+  }
+  img {
+    padding: 10px;
+    height: 250px;
+  }
+}
