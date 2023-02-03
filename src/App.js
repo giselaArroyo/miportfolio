@@ -1,5 +1,6 @@
 import Menu from "./Components/Menu";
 import About from "./Components/About";
+import Projects from "./Components/Projects";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Menu />
       </div>
       <About />
+      <Projects />
     </>
   );
 }

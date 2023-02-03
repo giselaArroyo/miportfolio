@@ -1,0 +1,74 @@
+.fondoProjects {
+  background-color: #d3dcee;
+  margin-top: 80px;
+}
+
+/* .divProjects {
+  display: flex;
+  gap: 20px;
+} */
+
+.titleProjects {
+  font-family: "Lora";
+  font-weight: 400;
+  margin-left: 16%;
+  padding: 2% 0;
+}
+
+.artProjects {
+  background-color: #6279b8;
+  margin: 1% 18% 1% 16%;
+  /* margin-left: 16%;
+  margin-right: 18%; */
+  padding: 2%;
+  border-radius: 14px;
+  display: flex;
+  gap: 2%;
+  color: white;
+  align-items: center;
+}
+
+iframe {
+  border-radius: 10px;
+}
+
+.infoProjects {
+  padding: 10px;
+  gap: 10px;
+  font-weight: 300;
+}
+
+.pInfo {
+  margin-top: 9px;
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+.aProjects {
+  font-weight: 400;
+  color: white;
+  font-size: 18px;
+}
+
+.ulProjects {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.liProjects {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #d3dcee;
+  padding: 7px 12px;
+  border-radius: 6px;
+  color: #6279b8;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.icon {
+  font-size: 20px;
+  margin-bottom: 0;
+}
