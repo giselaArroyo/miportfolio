@@ -12,34 +12,27 @@ const About = () => {
         <div className="textAboutMe">
           ¡Hola!👋
           <br />
-          Soy Gisela, Desarrolladora Web Full Stack y Licenciada en Relaciones
-          Públicas.
+          Soy Gisela, Desarrolladora Web Full Stack.
           <br />
           <br />
           <div className="destacado">
-            Me gusta crear aplicaciones fáciles de usar, orientadas a la
+            Me gusta crear aplicaciones fáciles de usar, pensando en la
             experiencia del usuario y que se destaquen por su diseño
-            minimalista.
+            minimalista, sin dejar de lado la funcionalidad.
           </div>
           <br />
           Comencé a estudiar programación, de forma autónoma, por curiosidad; y
-          encontré una profesión que me encantó porque me permite ser creativa.
-          <br />
-          Realicé un coding bootcamp en Plataforma 5, de más de 800 horas de
-          cursada, donde adquirí muchas hábilidades técnicas. Trabajé haciendo
-          pair programing y realicé proyectos en grupo utilizando la metodología
-          Scrum.
+          luego realicé un coding bootcamp en Plataforma 5, de más de 800 horas
+          de cursada, donde adquirí muchas habilidades técnicas. Además, realicé
+          proyectos individuales, en pair programing y también en grupo,
+          utilizando la metodología Scrum.
           <br />
           <br />
-          Además, trabajé más de 10 años en comunicación, eventos y marketing
-          digital. Tengo experiencia trabajando en equipo, liderando grupos de
-          trabajo y en el cumplimiento de objetivos.
-          <br />
-          <br />
-          <div className="destacado">
-            Considero a la comunicación asertiva como una herramienta
-            fundamental para todos los ámbitos de la vida.
-          </div>
+          Además, soy Licenciada en Relaciones Públicas, y trabajé en
+          comunicación y marketing digital, lo que fortaleció mis habilidades
+          blandas. También tengo experiencia trabajando en equipo y liderando
+          grupos de trabajo. Considero a la comunicación efectiva como una
+          herramienta muy poderosa.
         </div>
       </div>
       <div className="techDiv">

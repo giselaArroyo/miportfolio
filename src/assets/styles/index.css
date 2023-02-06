@@ -11,7 +11,7 @@ code {
     monospace;
 }
 .fondo {
-  background-image: url("../images/fondomov.gif");
+  background-image: url("../images/bg-shadow-01.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -27,7 +27,8 @@ code {
 }
 
 .name {
-  font-family: "Lora", serif;
+  font-family: "Lora";
+  font-style: italic;
   font-size: 400%;
   color: #6279b8;
   margin: 0;
@@ -42,7 +43,7 @@ code {
 .divNavbar {
   margin-left: 20%;
   margin-right: 20%;
-  margin-bottom: 20%;
+  padding-bottom: 20%;
 }
 
 nav {

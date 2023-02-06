@@ -1,25 +1,23 @@
-.fondoProjects {
-  background-color: #d3dcee;
+.backProjects {
+  background-color: #8ea4d2;
   margin-top: 80px;
+  padding-bottom: 40px;
 }
-
-/* .divProjects {
-  display: flex;
-  gap: 20px;
-} */
 
 .titleProjects {
   font-family: "Lora";
   font-weight: 400;
   margin-left: 16%;
   padding: 2% 0;
+  color: white;
+
+  font-style: italic;
 }
 
 .artProjects {
-  background-color: #6279b8;
+  background-color: #3f548d;
   margin: 1% 18% 1% 16%;
-  /* margin-left: 16%;
-  margin-right: 18%; */
+
   padding: 2%;
   border-radius: 14px;
   display: flex;
@@ -71,4 +69,24 @@ iframe {
 .icon {
   font-size: 20px;
   margin-bottom: 0;
+}
+
+@media only screen and (max-width: 840px) {
+  .backProjects {
+    background-color: #8ea4d2;
+    margin-top: 30px;
+    padding-bottom: 0;
+  }
+  .titleProjects {
+    margin-left: 4%;
+  }
+  .artProjects {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1% 3% 1% 3%;
+  }
+  iframe {
+    display: flex;
+    text-align: center;
+  }
 }

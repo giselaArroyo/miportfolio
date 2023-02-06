@@ -20,7 +20,10 @@
   align-items: center;
   gap: 30px;
 }
-
+.destacado {
+  font-weight: 400;
+  font-size: medium;
+}
 img {
   height: 250px;
   width: auto;
@@ -35,7 +38,7 @@ img {
   margin-top: 4px;
   margin-left: 16%;
   margin-right: 16%;
-  /* margin-bottom: 4%; */
+
   display: inline-block;
   text-align: center;
 }
@@ -51,7 +54,6 @@ img {
 .liAbout {
   flex: 0 calc(25% - 120px);
 
-  /* width: 130px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -60,7 +62,6 @@ img {
   color: #6279b8;
   padding: 10px 10px;
   border-radius: 8px;
-  /* gap: 10px; */
 }
 li:hover {
   color: white;
@@ -71,7 +72,7 @@ i {
   margin-bottom: 10px;
 }
 
-@media only screen and (max-width: 735px) {
+@media only screen and (max-width: 840px) {
   .about {
     margin: 4%;
     flex-direction: column;
@@ -83,8 +84,8 @@ i {
   .techDiv {
     margin-left: 4%;
     margin-right: 4%;
-    display: inline-block;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
   }
   li {
     flex: 0 calc(50% - 30px);
