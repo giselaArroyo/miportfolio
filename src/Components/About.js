@@ -34,6 +34,9 @@ const About = () => {
           grupos de trabajo y trabajando por objetivos. Considero a la
           comunicación efectiva como una herramienta fundamental para trabajar
           en grupo.
+          <br />
+          Actualmente me estoy capacitando en Metodologías Ágiles en Coderhouse
+          (finaliza en abril 2023).
         </div>
       </div>
       <div className="techDiv">
