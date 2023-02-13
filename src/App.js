@@ -9,9 +9,7 @@ function App() {
       <div className="fondo">
         <div className="portada">
           <h1 className="name">Gisela Arroyo Galarce</h1>
-          <p className="titlePortada">
-            Full Stack Developer <strong>&</strong> Lic. en Relaciones Públicas
-          </p>
+          <p className="titlePortada">Full Stack Developer</p>
         </div>
         <Menu />
       </div>

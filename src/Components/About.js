@@ -23,16 +23,17 @@ const About = () => {
           <br />
           Comencé a estudiar programación, de forma autónoma, por curiosidad; y
           luego realicé un coding bootcamp en Plataforma 5, de más de 800 horas
-          de cursada, donde adquirí muchas habilidades técnicas. Además, realicé
+          de cursada, donde adquirí muchas habilidades técnicas. Realicé
           proyectos individuales, en pair programing y también en grupo,
           utilizando la metodología Scrum.
           <br />
           <br />
           Además, soy Licenciada en Relaciones Públicas, y trabajé en
           comunicación y marketing digital, lo que fortaleció mis habilidades
-          blandas. También tengo experiencia trabajando en equipo y liderando
-          grupos de trabajo. Considero a la comunicación efectiva como una
-          herramienta muy poderosa.
+          blandas. También tengo experiencia trabajando en equipo, liderando
+          grupos de trabajo y trabajando por objetivos. Considero a la
+          comunicación efectiva como una herramienta fundamental para trabajar
+          en grupo.
         </div>
       </div>
       <div className="techDiv">
